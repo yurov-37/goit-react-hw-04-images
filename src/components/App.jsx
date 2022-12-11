@@ -11,7 +11,6 @@ import 'react-toastify/dist/ReactToastify.css';
 import * as API from './services/api';
 import { SearchApp } from './App.styled';
 import { ThreeDots } from 'react-loader-spinner';
-// import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
 
 export default class App extends Component {
   state = {
