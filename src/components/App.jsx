@@ -92,6 +92,7 @@ export default function App() {
 
   return (
     <SearchApp>
+      {error && <h2>Data processing error. Try reloading the page.</h2>}
       <Searchbar onSubmit={getSearchName} />
       {images.length > 0 && (
         <ImageGallery items={images} onImgClick={onImageClick} />
